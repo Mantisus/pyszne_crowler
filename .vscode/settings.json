@@ -1,0 +1,16 @@
+{
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true
+        }
+    },
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length=99"],
+    "python.linting.enabled": true,
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 4,
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.minimap.enabled": true,
+    "editor.wordWrap": "on",
+}

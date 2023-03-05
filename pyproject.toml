@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pyszne-crowler"
 version = "0.1.0"
-description = ""
+description = "A personal experimental project"
 authors = ["Mantisus <moriturus7@gmail.com>"]
 readme = "README.md"
 packages = [{include = "pyszne_crowler"}]
@@ -12,6 +12,7 @@ httpx = "^0.23.3"
 brotli = "^1.0.9"
 loguru = "^0.6.0"
 lxml = "^4.9.2"
+click = "^8.1.3"
 
 
 [tool.poetry.group.dev.dependencies]
